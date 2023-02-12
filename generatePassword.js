@@ -97,7 +97,6 @@ upperCheckEl.addEventListener("click", generatePassword)
 numberCheckEl.addEventListener("click", generatePassword)
 symbolCheckEl.addEventListener("click", generatePassword)
 
-document.querySelector("#copy1").addEventListener("click", copy)
-document.querySelector("#copy2").addEventListener("click", copy)
+document.querySelector("#copy").addEventListener("click", copy)
 document.querySelector("#renew").addEventListener("click", generatePassword)
 generatePassword()
